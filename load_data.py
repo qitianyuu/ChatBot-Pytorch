@@ -7,8 +7,8 @@ from transformers import GPT2Tokenizer
 from process_data import load_daily, load_empathetic, load_persona, load_blended
 from settings import config
 
-dataset_list = ['daily_dialog', 'empathetic_dialogues', 'persona_chat', 'blended_skill_talk']
-
+# dataset_list = ['daily_dialog', 'empathetic_dialogues', 'persona_chat', 'blended_skill_talk']
+dataset_list = ['daily_dialog']
 
 # 合并四个数据集
 def merge_data(tokenizer, config):
